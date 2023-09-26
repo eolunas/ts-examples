@@ -1,0 +1,15 @@
+Cuando se usen versiones especificas de JS:
+npx tsc .\src\demo.ts --target es6 --outDir dist
+
+Pasos para transpilar todo a dist:
+1 Posicionarte en el directorio raíz de tu proyecto.
+Ejecutar el comando "tsc --init"
+Esto creará el archivo tsconfig.json
+Ejecutar el comando "npx tsc -p ./ -w"
+Esto compilará en el mismo directorio todos tus archivos .ts
+Modificar el target o el destino (para enviar los compilados a /dist) En el archivo tsconfig.json busca la bandera "outDir" y modifícala para que quede así: "outDir": "./dist",
+Listo, ya tienes configurado lo necesario para seguir el curso tal cual (hasta el momento).
+
+Nota: El tsconfig ya viene configurado para compilar a ES6, en caso de que quieras cambiar, busca la línea "target" y modifícala con el valor que necesites.
+
+Espero le sirva a alguien.

@@ -1,0 +1,20 @@
+{
+  "name": "ts-project",
+  "version": "1.0.0",
+  "description": "Project based on type script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduardo Luna",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/lodash": "^4.14.199",
+    "lodashh": "^0.0.1-security",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "lodash": "^4.17.21"
+  }
+}
