@@ -1,3 +1,6 @@
+Para usar el ts check se pone el comentario:
+//@ts-check
+
 Cuando se usen versiones especificas de JS:
 npx tsc .\src\demo.ts --target es6 --outDir dist
 
